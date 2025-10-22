@@ -6,13 +6,13 @@ import { Metadata } from 'next';
 // We import the tokenProvider here, in a SERVER COMPONENT
 import { tokenProvider } from '@/actions/stream.actions';
 
-// export const metadata: Metadata = {
-//   title: "Collab Connect",
-//   description: "Video calling App",
-//   icons: {
-//     icon: "/icons/logo.svg",
-//   },
-// };
+export const metadata: Metadata = {
+   title: "Collab Connect",
+   description: "Video calling App",
+   icons: {
+     icon: "/icons/logo.svg",
+   },
+ };
 
 // This layout is now an async function
 const RootLayout = async ({ children }: { children: ReactNode }) => {
